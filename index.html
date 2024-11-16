@@ -1,0 +1,244 @@
+<html>
+<head>
+    <title>Vogue Vault</title>
+    <style>
+        body {
+            font-family: Arial,sans-serif;
+		font-size:12px;
+            line-height: 1.6;
+            margin: 8;
+	    color:red;
+            
+        }
+        header{
+            padding:15px;
+            margin-bottom:15px;
+            background-color:violet;
+        }
+
+	nav{
+            padding:20px;
+            margin-bottom:20px;
+            background-color:beige;
+		text-align:right;
+		font-family:georgia,bold;
+		font-size:16px;		
+		color:red;		
+        }
+	 section{
+            padding:15px;
+            margin-bottom:15px;
+            background-color:white;
+        }
+	footer {
+            padding:15px;
+            margin-bottom:15px;
+            background-color:white;
+		color:black;
+		text-allignment:center;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color:white;
+        }
+        h1{margin:0;
+	   padding:0;
+		color:black;
+		text-align:center;
+		font-size:56px;
+		font-family:geramond,bold;
+		}
+ 	h2{margin:0;
+	   padding:0;
+		color:grey;
+		} 
+	h3, p {margin:0;
+	   padding:0;
+		color:red;
+		}
+	dl{color:black;
+		}
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+        button {
+            padding: 5px 10px;
+            background-color:green;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-size:14px;
+        }
+        button:hover {
+            background-color:white;
+        }
+        input[type="text"],input[type="email"],textarea,select{
+            width: 40%;
+            padding:5px;
+            margin-bottom: 5px;
+            border: 1pxsolid white;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+		color:black;
+        }
+        form {
+            max-width:600px;
+            margin:0 auto;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom:20px;
+        }
+        .product .item {
+            flex: 0 1 calc(33.33% - 20px);
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: pink;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .product .item img {
+            max-width:50%;
+            height:auto;
+            border-radius:5px;
+            margin-bottom:10px;
+        }
+        .cta-buttons {
+            text-align:center;
+        }
+        .cta-buttons button {
+            margin:10px;
+        }
+        .promotions {
+            display:flex;
+            justify-content:space-between;
+        }
+        .promotions.banner {
+            flex:01calc(100%-50px);
+        }
+        .promotions .banner img {
+            max-width: 200%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vogue Vault</h1>
+    </header>
+    <nav>
+	<table width="100%">
+            <tr>
+                <th><a href="index.html">Home</a></th>
+                <th><a href="product.html">Products</a></th>
+                <th><a href="category.html">Categories</a></th>
+                <th><a href="account.html">Account</a></th>
+                <th><a href="cart.html">Cart <img src="trolley.jpg" alt="Cart" class="cart-icon"></a></th>
+                <th><a href="contact.html">Contact Us</a></th>
+                <th><a href="about.html">About Us</a></th>
+                <th><a href="faq.html">FAQ</a></th>
+                <th> <input type="text" placeholder="Search"></th>
+            </tr>
+        </table>
+
+    </nav>
+
+    <section id="hero">
+        <h2>Discover Your Style</h2>
+        <img src="watch4.jpg">
+	 <img src="laptop.jpg">
+        <div class="cta-buttons">
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Featured Products</h2>
+        <div class="product">
+            <div class="item">
+                <img src="woofer.jpg">
+                <h3>Ailyons Woofer</h3>
+		<dl>
+		<dd> AILYONS ECS2402 woofer Multimedia Speaker With Powerful Amplifier 18000 PMPO Output Power 20W+10W*2【HOT】.</dd>
+		</dl>
+
+                <p>ksh6,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="smartwatch1.jpg">
+                <h3>Smart Watch</h3>
+		<dl>
+		<dd> This smartwatch seamlessly integrates advanced technology with elegant design, offering a vibrant touchscreen display that showcases notifications, fitness tracking metrics, and customizable watch faces. Its robust features include heart rate monitoring, GPS navigation, and compatibility with various health and lifestyle apps.</dd>
+		</dl>
+                <p>Ksh999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="boots.jpg">
+                <h3> Military Boots</h3>
+		<dl>
+		<dd> ORIGINAL LEATHER SIWAR BOOTS, TACTICAL MILITARY BOOTS, CAMOUFLAGE BOOTS. HEAVY DUTY.</dd>
+		</dl>
+                <p>Ksh4,169.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="promotions">
+        <div class="promotions">
+            <div class="banner">
+                <img src="headphone.jpg" alt="50% Off Maandamano Sales">
+            </div>
+            <div class="banner">
+                <img src="watch2.jpg" alt="New Arrivals">
+            </div>
+        </div>
+    </section>
+
+    <section id="cta-buttons">
+        <button>Explore Collections</button>
+        <button>Sign Up for Offers</button>
+    </section>
+
+    <footer>
+        <div class="quick-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="newsletter">
+            <form>
+		First Name <input type="Name">
+		Middle Name <input type="Name">
+		Last Name <input type="Name"><br>
+		Email Address<input type="email">
+		Phone Number<input type="number"><br>
+		Gender<input type="radio" name="gender">male
+		<input type="radio" name="gender">female
+		<input type="radio" name="gender">other<br>
+		Date<input type="date"><br>
+                <input type="Password" placeholder="Password">
+		<input type="Password" placeholder="confirm password">
+                <button>Sign Up</button>
+            </form>
+		<p>&copy; 2024 Vogue Vault. All rights reserved.</p>
+        </div>
+        <div class="trust-badges">
+            <img src="paypal.jpg">
+        </div>
+    </footer>
+</body>
+</html>

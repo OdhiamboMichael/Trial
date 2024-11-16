@@ -1,0 +1,649 @@
+<html>
+<head>
+       <title>Vogue Vault - Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 8px;
+            color: black;
+        }
+        header {
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: violet;
+        }
+        nav {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: pink;
+            text-align: right;
+            font-family: Georgia, bold;
+            font-size: 16px;
+            color: red;
+        }
+        footer {
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: white;
+        }
+        h1 {
+            margin: 0;
+            padding: 0;
+            color: black;
+            text-align: center;
+            font-size: 36px;
+            font-family: Garamond, bold;
+        }
+        h2 {
+            margin: 0;
+            padding: 0;
+            color: green;
+        }
+        h3, p {
+            margin: 0;
+            padding: 0;
+            color: red;
+        }
+        dl {
+            color: black;
+        }
+        img {
+            max-width: 70%;
+            height: auto;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: red;
+        }
+        input[type="text"], input[type="email"], textarea, select {
+            width: 40%;
+            padding: 5px;
+            margin-bottom: 5px;
+            border: 1px solid white;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+            color: black;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .product .item {
+            flex: 0 2 calc(18.05% - 20px);
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: beige;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .product .item img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .cta-buttons {
+            text-align: center;
+        }
+        .cta-buttons button {
+            margin: 10px;
+        }
+        .promotions {
+            display: flex;
+            justify-content: space-between;
+        }
+        .promotions .banner {
+            flex: 1 calc(100% - 50px);
+        }
+        .promotions .banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Products</h1>
+    </header>
+
+    <nav>
+        <table width="100%">
+            <tr>
+                <th><a href="index.html">Home</a></th>
+                <th><a href="product.html">Products</a></th>
+                <th><a href="category.html">Categories</a></th>
+                <th><a href="account.html">Account</a></th>
+                <th><a href="cart.html">Cart <img src="trolley.jpg" alt="Cart" class="cart-icon"></a></th>
+                <th><a href="contact.html">Contact Us</a></th>
+                <th><a href="about.html">About Us</a></th>
+                <th><a href="faq.html">FAQ</a></th>
+                <th> <input type="text" placeholder="Search"></th>
+            </tr>
+        </table>
+    </nav>
+
+    <section>
+        <h2>Products</h2>
+        <div class="product">
+            <div class="item">
+                <img src="woofer.jpg" alt="Ailyons Woofer">
+                <h3>Ailyons Woofer</h3>
+                <dl>
+                    <dd>AILYONS ECS2402 woofer Multimedia Speaker With Powerful Amplifier 18000 PMPO Output Power 20W+10W*2【HOT】.</dd>
+                </dl>
+                <p>Ksh 6,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="smartwatch1.jpg" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <dl>
+                    <dd>This smartwatch seamlessly integrates advanced technology with elegant design, offering a vibrant touchscreen display that showcases notifications, fitness tracking metrics, and customizable watch faces.</dd>
+                </dl>
+                <p>Ksh 999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="laptop.jpg" alt="Apple Laptop">
+                <h3>Apple Laptop</h3>
+                <dl>
+                    <dd>Refurbished Apple MacBook Pro (Mid 2012) Core I5 8GB RAM 500GB HDD 13.3 Inches 2.5GHz Dual Core Laptop.</dd>
+                </dl>
+                <p>Ksh 28,999</p>
+                <button>Add to Cart</button>
+        </div>
+	<div class="item">
+                <img src="boots.jpg">
+                <h3>Millitary Boots</h3>
+		<dl>
+		<dd>ORIGINAL LEATHER SIWAR BOOTS, TACTICAL MILITARY BOOTS, CAMOUFLAGE BOOTS. HEAVY DUTY.</dd>
+		</dl>
+                <p>Ksh4,199</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="handbag.jpg">
+                <h3>Hand Bag</h3>
+		<dl>
+		<dd> New sling chain portable bag leisure phone handbags for ladies  gift.</dd>
+		</dl>
+                <p>Ksh499</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="blender.jpg">
+                <h3>Steel Blender</h3>
+		<dl>
+		<dd> AILYONS 1.5L 2 In 1 Motor Stainless Steel Blender  TYB-201-A Quality With Grinder Juicer White【HOT】.</dd>
+		</dl>
+                <p>Ksh5,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="watch3.jpg">
+                <h3>Mens Watch</h3>
+		<dl>
+		<dd> This smartwatch seamlessly integrates advanced technology with elegant design, offering a vibrant touchscreen display that showcases notifications, fitness tracking metrics, and customizable watch faces.</dd>
+		</dl>
+                <p>Ksh1,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="pencil.jpg">
+                <h3>Eyebrow Pencil</h3>
+		<dl>
+		<dd> 4 Tip Microblading Tattoo Eyebrow Pencil Brow Tattoo Pen Paint Makeup Eyebrows Waterproof Gray Brown.</dd>
+		</dl>
+                <p>Ksh299</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="drill.jpg">
+                <h3>Nail Drill</h3>
+		<dl>
+		<dd> 1 Set Professional Electric Nail Drill Machine Manicure Machine Pedicure Drill Set Ceramic Nail File Nail Drill Equipment Tools ,Nail Art Nail Tools 6 Bits Drill Personal Care.</dd>
+		</dl>
+                <p>Ksh690</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="brush.jpg">
+                <h3>Make-up Brush</h3>
+		<dl>
+		<dd> 13Pcs Makeup Brushes Set Foundation  Powder Eyeshadow Concealer Blending Makeup brush set Beauty Tool with Bag New Arrival.</dd>
+		</dl>
+                <p>Ksh700</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="necklace.jpg">
+                <h3>Necklace</h3>
+		<dl>
+		<dd>HN-3 piece/Set New Crystal drops Peacock Necklace pendant ring stud earring Women Jewellery Gift.</dd>
+		</dl>
+                <p>Ksh28,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="ring.jpg">
+                <h3>Nose Clip</h3>
+		<dl>
+		<dd>Non-Perforated U-Shaped Nose Clip, Copper Inlaid Star Heart Nose Ring Fake Nose Piercing Women Accessories Jewellery Lovers Girlfriends Wife's Birthday Holiday Surprising Gift.</dd>
+		</dl>
+                <p>Ksh78</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="chain.jpg">
+                <h3>Diamond Hand Chain</h3>
+		<dl>
+		<dd> Men&apos;s Fashion Diamond Hand Chain With Ring Jewellery Cuban Gold Hand Chain And Ring.</dd>
+		</dl>
+                <p>Ksh899</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="cross.jpg">
+                <h3>Sling Chain Bag</h3>
+		<dl>
+		<dd> Small sling bags women chain cross body transparent handbags for ladies gift.</dd>
+		</dl>
+                <p>Ksh560</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="shoe.jpg">
+                <h3>Timberland</h3>
+		<dl>
+		<dd> Timberland Men's casual boots sneakers shoes.</dd>
+		</dl>
+                <p>Ksh7,099</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="mensh.jpg">
+                <h3>Leather Shoes</h3>
+		<dl>
+		<dd> SXCHEN New Men's Business Dress Shoes Official Shoes Men Man-made Leather Shoes Breathable Dress Shoes Pointed Toe Formal Shoes Hot Fashion Wedding pu Leather Man Pointed Boy Formal Office Shoe Dad.</dd>
+		</dl>
+                <p>Ksh2,609</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="tablet.jpg">
+                <h3>learning Tablet</h3>
+		<dl>
+		<dd> Classy 7 inches Smart Kids Learning Tablets Connects to wifi,1024*600 Display, android 12, 6GB +128GB, battery 5000mAh.</dd>
+		</dl>
+                <p>Ksh18,029</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="apple.jpg">
+                <h3>Apple MacBook</h3>
+		<dl>
+		<dd> Apple MacBook Pro 13 2017 Core i7 16GB RAM 256GB SSD 13.3 Inch Retina Display 2.8GHz Dual Core A1708 MacOS Refurbished Laptop.</dd>
+		</dl>
+                <p>Ksh128,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="tripod.jpg">
+                <h3>Tripod Stand</h3>
+		<dl>
+		<dd> Tripod Stand Ring Light Phones Selfie Stick Live Bracket Spin Desktop Stabilizer Phone Clip.</dd>
+		</dl>
+                <p>Ksh8,120</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="light.jpg">
+                <h3>Ring Light</h3>
+		<dl>
+		<dd> New Arrival 8" LED Ring Light with Tripod Stand Phone Holder Selfie YouTube Live Stream Tiktok Other Phones Accessories.</dd>
+		</dl>
+                <p>Ksh3,200</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="selfie.jpg">
+                <h3>Selfie Ring</h3>
+		<dl>
+		<dd> 6inch Selfie Ring Light With Tripod Stand 2 Phones Holders Desktop Ring Light for Video Recording Live Broadcast Live Streaming Selfie Makeup Video Photography Selfie Lights.</dd>
+		</dl>
+                <p>Ksh6,240</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="backpack.jpg">
+                <h3>Backpack</h3>
+		<dl>
+		<dd> 16 Inch Laptops Backpack USB Business School Bags Anti-Theft Men Women Travel Rucksacks Waterproof Gift Kings Fashion.</dd>
+		</dl>
+                <p>Ksh2,199</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="menbag.jpg">
+                <h3>Men's Backpack</h3>
+		<dl>
+		<dd> Fashion Men's Large Capacity Backpack Schoolbag Casual Work Commuting Travel Backpack Can Hold 15.6 Inch Computer.</dd>
+		</dl>
+                <p>Ksh3,789</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="tv.jpg">
+                <h3>Smart TV</h3>
+		<dl>
+		<dd> Vitron HTC3200S,FRAMELESS TELEVISION Smart Android 11.0, 32" TV Inbuilt Decoder ELECTRONICS HDMI,USB,Netflix,Youtube, APPSTORE + 8 FREE ACCESSORIES.</dd>
+		</dl>
+                <p>Ksh18,479</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="welding.jpg">
+                <h3>Welding Machine</h3>
+		<dl>
+		<dd> Makita Accessories Makita Electronic Welding Machine/Welding Inverter.</dd>
+		</dl>
+                <p>Ksh48,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="skate.jpg">
+                <h3>Electronic-Skateboard</h3>
+		<dl>
+		<dd> Electronic-Skateboard Drive Motor Kits Accessories for All Skateboard Longboard.</dd>
+		</dl>
+                <p>Ksh13,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="key.jpg">
+                <h3>Electronic Keyboard</h3>
+		<dl>
+		<dd> 61 Keys Electronic Keyboard For Kids,Perfect Birthday Giftwell designed for your child. >The main body is made of ABS, safe and friendly to the environment. >With the accessory microphone,.</dd>
+		</dl>
+                <p>Ksh68,099</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="aerial.jpg">
+                <h3>TV Aerial</h3>
+		<dl>
+		<dd> Electronics Accessories Digital TV Aerial + 10mtr Cable + Free Cable Clips Silver one size.</dd>
+		</dl>
+                <p>Ksh459</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="weigh.jpg">
+                <h3>ELECTRONIC MACHINE 30KG</h3>
+		<dl>
+		<dd> HIGH QUALITY DIGITAL WEIGH ,PRICE ELECTRONIC MACHINE 30KG kitchen accessories rechargeable battery, stainless steel.Two sided digital screen. .</dd>
+		</dl>
+                <p>Ksh21,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="recorder.jpg">
+                <h3>Car Driving Recorder</h3>
+		<dl>
+		<dd> 1080P HD LCD Car Driving Recorder Dash Cams DVR Night Vision Video Recorder tachograph.</dd>
+		</dl>
+                <p>Ksh8,599</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="tool.jpg">
+                <h3>Electric Tool Kit</h3>
+		<dl>
+		<dd> Electronic Car jack ,tool kit  and air compressor  with remote control Overload protection: When the load exceeds the rated load automatically stop working, protect the product from damage and operato.</dd>
+		</dl>
+                <p>Ksh6,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="invertor.jpg">
+                <h3>Power Inverter</h3>
+		<dl>
+		<dd> Car Power Inverter, 200W With 2 Socket Ports And 4 USB Ports -DC TO AC 12V TO 220V.</dd>
+		</dl>
+                <p>Ksh17,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="air.jpg">
+                <h3> Air Compressor12V</h3>
+		<dl>
+		<dd>1-Cylinder Air Compressor/Tyre Inflator12V single cylinder car air pump car tire inflator, small size and portable.Come with 3 different air nozzles, suitable for cars.</dd>
+		</dl>
+                <p>Ksh260,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="auto.jpg">
+                <h3>Car Organizer</h3>
+		<dl>
+		<dd> 3 in1 multifunctional car organizer 
+ Auto handbag holder between seats 
+Tissue box cup pockets handbag holder.</dd>
+		</dl>
+                <p>Ksh600</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="cooker.jpg">
+                <h3>Cooker</h3>
+		<dl>
+		<dd> AILYONS GS014-1/GS005A-1 Glass Top Infrared Double Burner Gas stove Super Infrared Heater Saving Gas cooker/ 2300W Double Cooking Plate Stove Gas Ring Hot Plate Cooker.</dd>
+		</dl>
+                <p>Ksh2,879</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="oven.jpg">
+                <h3>Electric Oven Cooker</h3>
+		<dl>
+		<dd> Nunix  KZ-560-3G1E   Free Standing 3 Gas  Cooker+1 Hotplate With  Electric Oven Cooker.</dd>
+		</dl>
+                <p>Ksh78,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="fridge.jpg">
+                <h3>Fridge</h3>
+		<dl>
+		<dd> Vitron 125L Double Doors Refrigerator VDR128DS Enerygy Saving Fridge and Freezer with 2L Bottle Rack.</dd>
+		</dl>
+                <p>Ksh118,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="pad.jpg">
+                <h3>Antivibration Shocks pads</h3>
+		<dl>
+		<dd> Antivibration Shocks pads for washing machine and furniture 4pcs.</dd>
+		</dl>
+                <p>Ksh8,442</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="solar.jpg">
+                <h3>Solar</h3>
+		<dl>
+		<dd>Solar Light 300w Dusk To Dawn SOLAR SECURITY FLOODLIGHT.</dd>
+		</dl>
+                <p>Ksh67,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="black.jpg">
+                <h3>Breakfast Machine</h3>
+		<dl>
+		<dd> Sokany Multifunction 3 In 1 Electric Machine Breakfast Maker Black L.</dd>
+		</dl>
+                <p>Ksh26,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="shocks.jpg">
+                <h3>Household Washing Machine</h3>
+		<dl>
+		<dd> 8L Foldable Washing Machine Portable Socks Underwear Panties Retractable Household Washing Machine 3 Models With Spinning Dry.</dd>
+		</dl>
+                <p>Ksh10,999</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="steam.jpg">
+                <h3> Washing Machine</h3>
+		<dl>
+		<dd> Hisense  7kg Front Load 1200 RPM Spin Washing Machine Steam-Deep Cleaning  Full Automatic WFQP7012EVMT.</dd>
+		</dl>
+                <p>Ksh86,099</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="dis.jpg">
+                <h3>Water Dispenser</h3>
+		<dl>
+		<dd> NUNIX Q7C  Hot and Cold and Normal Free standing water dispenser water dispensers household.</dd>
+		</dl>
+                <p>Ksh8,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="pump.jpg">
+                <h3>Water Pump</h3>
+		<dl>
+		<dd>Water dispensers Agricultural Electric Water Pump Micro High Pressure Diaphragm Water Spray Car Wash.</dd>
+		</dl>
+                <p>Ksh52,000</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="glass.jpg">
+                <h3>Glasses</h3>
+		<dl>
+		<dd> Anti Blue Light Glasses Blue Block Screen Light Protection Sunglasses.</dd>
+		</dl>
+                <p>Ksh7,016</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="neck.jpg">
+                <h3>Glasses Strap</h3>
+		<dl>
+		<dd> TS Eyeglass Chain, Beaded Eye Glasses Strap Holders around Neck For Women & Girls, Sunglasses Mask Necklace Lanyard.</dd>
+		</dl>
+                <p>Ksh99</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="watch.jpg">
+                <h3>Fashion Watch</h3>
+		<dl>
+		<dd> ladies rhinestones fashion watch +bracelet suit (No box) PU strap simple watch girls elegant decorative watch Women's fashion accessories Quartz watch Holiday gift.</dd>
+		</dl>
+                <p>Ksh399</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="watch5.jpg">
+                <h3>Jewelry Watch</h3>
+		<dl>
+		<dd> Women's fashion shiny jewelry watch 6-piece set （No box）quartz watch + bracelet + necklace + earrings + rings Girls light luxury jewelry Accessorie .</dd>
+		</dl>
+                <p>Ksh688</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="hat.jpg">
+                <h3>Visor Hats</h3>
+		<dl>
+		<dd> Fashion Classic Unisex Visor Hats Baseball Half Cap/ Summer Hats.</dd>
+		</dl>
+                <p>Ksh750</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="hats.jpg">
+                <h3>Fedora Hats</h3>
+		<dl>
+		<dd> Fedora Hats wide brim with Ribbon panama hats sun hats men/women fedora cap.FTF.</dd>
+		</dl>
+                <p>Ksh950</p>
+                <button>Add to Cart</button>
+            </div>
+	<div class="item">
+                <img src="bcy.jpg">
+                <h3>MOUNTAIN BIKE</h3>
+		<dl>
+		<dd> FOLDABLE MOUNTAIN BIKE BICYCLESIZE 26 WITH DISC BRAKES AND FRONT SUSPENSION AND SHIMANO GEARS.</dd>
+		</dl>
+                <p>Ksh49,598</p>
+                <button>Add to Cart</button>
+            </div>
+
+     
+        <h2>Related Products</h2>
+        <div class="product">
+            <div class="item">
+                <img src="headphone.jpg" alt="Related Product 1">
+                <h3>Normal Headphones</h3>
+		<dl>
+		<dd> RichRipple P9 Air Max Wireless Bluetooth Headphones Sports Gaming Wireless Headset Noise Reduction Earphone With Microphone Supports TF.</dd>
+		</dl>
+                <p>ksh1,159</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="laptop.jpg" alt="Related Product 2">
+                <h3>Apple Laptops</h3>
+		<dl>
+		<dd> Refurbished Apple MacBook Pro (Mid 2012) Core I5 8GB RAM 500GB HDD 13.3 Inches 2.5GHz Dual Core Laptop.</dd>
+		</dl>
+                <p>Ksh28,999</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+       <div class="quick-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+        <div class="social-media">
+            <a href="facebook.html">Facebook</a>
+            <a href="instagram.html">Instagram</a>
+            <a href="twitter.html">Twitter</a>
+		<p>&copy; 2024 Vogue Vault. All rights reserved.</p>
+        </div>
+                <div class="trust-badges">
+            <img src="paypal.jpg">
+        </div>
+
+    </footer>
+</body>
+</html>
